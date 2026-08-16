@@ -1642,11 +1642,6 @@ body {
 
 /* Tablet */
 @media (max-width: 1024px) {
-    .hero-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
     .hero-text {
         max-width: 100%;
     }
@@ -1675,6 +1670,10 @@ body {
     .about-container {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .about-image {
+        order: -1;
     }
 
     .about-text p {
@@ -1735,6 +1734,10 @@ body {
 
     .hero {
         padding: 100px 5% 60px;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
     }
 
     .hero-title {
@@ -1864,6 +1867,10 @@ body {
 
 /* Small Mobile */
 @media (max-width: 480px) {
+    .hero-content {
+        flex-direction: column-reverse;
+    }
+
     .hero-title {
         font-size: 2rem;
     }

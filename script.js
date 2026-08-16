@@ -263,6 +263,9 @@ function initializeProjectFilter() {
 // ============================================
 // CONTACT FORM
 // ============================================
+// Using Formspree service - form submits directly to email
+// No JavaScript handling needed
+/*
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
@@ -289,6 +292,7 @@ if (contactForm) {
         contactForm.reset();
     });
 }
+*/
 
 // ============================================
 // 3D ANIMATIONS WITH THREE.JS

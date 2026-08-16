@@ -8,20 +8,20 @@
 // ============================================
 const config = {
     // Basic Info
-    name: "Nooru",
+    name: "Noorul Haq",
     title: "B.Tech Data Science & AI",
     subtitle: "Machine Learning Engineer | Data Scientist | AI Researcher | Python Developer",
     description: "I build intelligent systems that learn from data and make predictions. Passionate about creating AI solutions that solve real-world problems.",
 
     // Profile Image
-    profileImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face",
+    profileImage: "NOORul.jpg",
 
     // Contact Information
     contact: {
-        email: "nooru@example.com",
+        email: "noorulhaq@example.com",
         phone: "+91 12345 67890",
         location: "Bangalore, India",
-        website: "https://nooru-portfolio.com"
+        website: "https://noorulhaq-portfolio.com"
     },
 
     // Social Media Links
